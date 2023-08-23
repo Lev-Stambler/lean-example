@@ -4,3 +4,5 @@ theorem hello_world (a b c : ℕ) : a + b + c = a + c + b :=
 begin
   rw [add_assoc, add_comm b, ←add_assoc]
 end
+
+theorem aaa : 1 + 1 = 2 := sorry
